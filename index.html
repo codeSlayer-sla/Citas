@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas Hipotéticas</title>
+    <link rel="stylesheet" href="hest.css">
+</head>
+<body>
+    <canvas id="canvas" width="400" height="300"></canvas>
+    <div class="buttons-container">
+        <input type="color" id="colorPicker" value="#000000"> <!-- Color Picker -->
+        <button onclick="clearCanvas()">Borrar</button> <!-- Botón para borrar el canvas -->
+    </div>
+    <div class="moving-box">El de sistemas que no levanta es porque no quiere</div> <!-- Cuadro de texto móvil -->
+    <div class="container">
+        <h1><a href="#" class="button">Citas Hipotéticas con el Fulano de Sistemas</a></h1>        <img src="img/logo.jpg" alt="Logo de la empresa" class="logo" id="logo">
+        
+        </div>
+        <section class="citas">
+            <div class="cita-box1">
+                <h2>Cita #1</h2>
+                <p>Cita: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pulvinar efficitur.</p>
+                <p>Fecha: 27 de mayo de 2024</p>
+                <p>Lugar: Ciudad Hipotética</p>
+            </div>
+        </section>
+        <section class="citas">
+            <div class="cita-box2">
+                <h2>Cita #2</h2>
+                <p>Cita: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pulvinar efficitur.</p>
+                <p>Fecha: 27 de mayo de 2024</p>
+                <p>Lugar: Ciudad Hipotética</p>
+            </div>
+        </section>
+        <section class="citas">
+            <div class="cita-box3">
+                <h2>Cita #3</h2>
+                <p>Cita: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pulvinar efficitur.</p>
+                <p>Fecha: 27 de mayo de 2024</p>
+                <p>Lugar: Ciudad Hipotética</p>
+            </div>
+        </section>
+        <section class="citas">
+            <div class="cita-box4">
+                <h2>Cita #4</h2>
+                <p>Cita: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pulvinar efficitur.</p>
+                <p>Fecha: 27 de mayo de 2024</p>
+                <p>Lugar: Ciudad Hipotética</p>
+            </div>
+        </section>
+        
+    </div>
+    
+
+    <script src="hellojs.js"></script>
+    <footer>
+        <div class="mapa" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16336733.268684175!2d-88.42988072187153!3d-1.4949656589461622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca95789cec241%3A0x9b6c1c85425bba61!2sBiblioteca%20Central%20Universidad%20Tecnolog%C3%ADca%20de%20Panam%C3%A1!5e0!3m2!1ses!2spa!4v1716857614812!5m2!1ses!2spa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </div>
+
+
+    </footer>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('/')">/</button>
+        </div>
+    </div>
+    
+    <script src="calc.js"></script>
+    <script src="canv.js"></script>
+    <script src="cuadr.js"></script>
+
+</body>
+<div class="mapa" >
+
+</div>
+</html>
